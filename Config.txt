@@ -1,0 +1,12 @@
+This is my config, I will keep updating it:
+
+-----
+
+Regedit:
+HKEY_CURRENT_USER\Control Panel\Desktop
+
+DragHeight
+Value: 20
+
+DragWidth
+Value: 20
