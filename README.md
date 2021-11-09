@@ -2,7 +2,7 @@
 - 🌄 I'm based on the swabian alb 
 - 👀 I’m interested in Windows especially in Powershell and Exchange
 - 🌱 I’m currently learning everything related to Windows (lmao)
-- 🤯 My personal blog (unfortunally its only in german) https://eskalaflo.wixsite.com/schnittlauchsblog/
+- 🤯 My personal blog (unfortunally its only in german) 
 
 <!---
 IrgendwasMitSchnittlauch/IrgendwasMitSchnittlauch is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
