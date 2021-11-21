@@ -25,4 +25,3 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 Install-Module -Name PSWriteHTML -AllowClobber -Force                               #https://github.com/EvotecIT/PSWriteHTML
 Install-Module -Name VMware.PowerCLI -Scope CurrentUser                             #PowerCLI
 Install-Module -Name Az -Scope CurrentUser -Repository PSGallery -Force             #AzureModules
-
