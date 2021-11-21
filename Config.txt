@@ -18,3 +18,11 @@ For sure Darkmode [PS]:
 Set-ItemProperty -Path HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize -Name AppsUseLightTheme -Value 0
 
 -----
+
+Modules [PS]:
+
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+Install-Module -Name PSWriteHTML -AllowClobber -Force                               #https://github.com/EvotecIT/PSWriteHTML
+Install-Module -Name VMware.PowerCLI -Scope CurrentUser                             #PowerCLI
+Install-Module -Name Az -Scope CurrentUser -Repository PSGallery -Force             #AzureModules
+
