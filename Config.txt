@@ -25,7 +25,11 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 Install-Module -Name PSWriteHTML -AllowClobber -Force                               #https://github.com/EvotecIT/PSWriteHTML
 Install-Module -Name VMware.PowerCLI -Scope CurrentUser                             #PowerCLI
 Install-Module -Name Az -Scope CurrentUser -Repository PSGallery -Force             #AzureModules
+Install-Module -Name PowerShellGet -Force -AllowClobber                             #MS Teams related Module
+Install-Module -Name MicrosoftTeams -Force -AllowClobber                            #MS Teams Module
 
 Import-Module PSWriteHTML
 Import-Module VMware.PowerCLI
-Import-Module Az
+Import-Module Az                                 
+Import-Module -Name PowerShellGet -Force
+Import-Module -Name MicrosoftTeams -Force
